@@ -1,0 +1,163 @@
+//public class Main {
+//
+//    public static void main(String[] args) {
+//        //sout deb yozsa avtomatik System.out.println chiqarib berar ekan
+//        System.out.println("Assalomu alaykum Asror aka!");
+//        String mavzu = """
+//                Bugungi mavzu
+//                boolean  ikkita qiymatni saqlash mumkin.  true (to'g'ri) va false (yolg'on)
+//                byte  hajmi 8 bit. Butun sonlarni saqlash uchun ishlatiladi. Qiymati oralig'i  -128 dan  127 gacha. [-128 ..... 127]
+//                char  ishoralarni ushlab turish uchun ishlatiladi. namuna:  (a,b,c,.....!,#,$,....)
+//                short hajmi 16 bit.  Butun sonlarni saqlash uchun ishlatiladi. Oraliq  -32,768 ..... 32,767
+//                int hajmi 32 bit, Butun sonlarni saqlash uchun ishlatiladi. Oraliq  -2,147,483,648 ....  2,147,483,647
+//                long  hajmi 64 bit. Butun sonlarni saqlash uchun ishlatiladi. Oraliq  -9,223,372,036,854,775,808 ....... 9,223,372,036,854,775,807
+//                float hajmi 32 bit. Kasr sonlarni saqlash uchun ishlatiladi.  Oraliq  3.40282347 x 1038, 1.40239846 x 10-45
+//                double hajmi  64 bit. Kasr sonlarni saqlash uchun ishlatiladi. Oraliq 1.7976931348623157 x 10308, 4.9406564584124654 x 10-324  (juda katta son)
+//                """;
+//        System.out.println(mavzu);
+//        String a = """
+//                long a = 1001290991;
+//                long bu uzun 10 xonaligacha butun sonlarni saqlovchi o'zgaruvchi turi;
+//                int a = 5; int bu integer faqat butun sonlarni qabul qiladi
+//                """;
+//        System.out.print(a);
+//
+//        //char
+//
+//        char ishora = 'a';
+//        System.out.println(ishora);
+//
+//        String savol = "Nega ishorani saqlash kerak va ishora o'zi nima?";
+//
+//        System.out.println(savol);
+//
+//        double d = 1.55;
+//        float f = 1.5f;
+//        System.out.println(d);
+//        System.out.println(f);
+//
+//        String savol2 = "Nega float ni raqamdan keyin f yani ozgrauvchi nomini qoyish kerak?";
+//        System.out.println(savol2);
+//        int n = 5, m = 6;
+//        System.out.println("n va m ni print qilish uchun 2 qator kod yoziladimi yoki println bilanam bittada chiqarsa boladimi?");
+//        boolean haqiqat = true;
+//        System.out.println("haqiqat doim" + haqiqat);
+//
+//    }
+//}
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        System.out.println("Salom");
+//    }
+//}
+//
+//public class Main {
+//    static int a = 6;
+//    public static void main(String[] args) {
+//        System.out.println(a);
+//    }
+//}
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        String attent = """
+//                %s ---- String qiymatlar uchun
+//                %S ---- Stringni katta qiymatlarda chiqarish uchun
+//                %f ---- Float yoki Double qiymatlar uchun
+//                %e ---- Float yoki Double ning eksponensial qiymati uchun
+//                %b ---- Boolean (true, false) qiymatlar uchun
+//                %c ---- Char qiymatlar uchun
+//                %d ---- Integer shuningdek int, long ,short yoki byte tipli qiymatlar uchun
+//                %o ---- Sakkizlik sanoq sistemasida chop etish uchun
+//                %x ---- O'n oltilik sanoq sistemasida chop etish uchun
+//                %% ---- Foiz belgini chiqarish uchun
+//                %n ---- Yangi qator tashlash uchun
+//                %t ---- Sana va vaqt uchun
+//                """;
+//        System.out.println(attent + "bu printf uchun");
+//
+//        second();
+//
+//    }
+//    public static void second() {
+//        String test = "Javani";
+//        String source = "dasturlash uz";
+//        System.out.printf("%S ni %s orqali o'rganyabman", test, source);
+//    }
+//}
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        System.out.println("Salom pythonchilar");
+//    }
+//}
+//
+
+
+//public class Main {
+//    static int i;
+//    static boolean b;
+//    public static void main(String[] args) {
+//        System.out.printf("Integer default qiymatda 0 ga teng ekaan i = %d!\n", i);
+//        System.out.printf("Boolean defaultda pythondayam False edi javadaym bir xil ekan b = %b!", b);
+//    }
+//}
+
+
+//public class Main {
+//    public static void main(String[] args) {
+//        int n = 5;
+//
+//        System.out.println(n);
+//        n = 2;
+//
+//        System.out.println(n);
+//    }
+//}
+
+//public class Main {
+//    static int son3 = 80;
+//    public static void main(String[] args) {
+//        int son1 = 100;
+//        int son2 = 20;
+//        int a = 20+40;
+//
+//        System.out.println(a);
+//        System.out.println(son1+son2+son3);
+//
+//        int m = a + 10;
+//        System.out.println(m);
+//
+//        //bo'luv chap tomondan ongga boladi
+//        System.out.println(son1/son2);
+//        String text = "agar 10 / 4 ga boslsak 2.5 lekin amalni bajaruvchi ozgaruvchi type int bolsa 2 ni olib keladi 2.5 kasr son!!";
+//        System.out.println(text);
+//        double c = 10.0;
+//        double d = 4.0;
+//        System.out.println(c/d);
+//        System.out.println("Doubleda 2.5 chiqadiagar biri int bolganda 2 keladi response ham 2.5 doubleda qaytadi");
+//        //ayirish
+//        System.out.println(son1-son2);
+//
+//        //kopaytiruv
+//        System.out.println(son1*son2);
+//
+//
+//
+//    }
+//}
+
+
+
+public class Main {
+    public  static  void main(String[] args) {
+        int a = 5;
+        int b = 8;
+
+        System.out.println(!(a < 10 && b > 4)); //jarayon 5 10dan kichik bolgani uchun true va 8 4dan katta bolgani uchun true true ning inkori false
+        System.out.println(!!(a < 10 && b > 10 )); //jarayon 1 amal togri ammo ikkinchisi false ikkisdan bir false bolsa return false qaytadi va falseni inkori true
+    }
+}
+
+
